@@ -257,6 +257,15 @@
       </div>
       <span class="proj-btn-arrow">›</span>
     </button>
+
+    <button class="proj-btn" onclick="showProject('p6', this)">
+      <div class="proj-btn-icon" style="background:#F0FDF4;">🔐</div>
+      <div class="proj-btn-text">
+        <div class="proj-btn-num">06</div>
+        <div class="proj-btn-title">Creating a Private Subnet</div>
+      </div>
+      <span class="proj-btn-arrow">›</span>
+    </button>
   </aside>
 
   <!-- VIEWER PANEL -->
@@ -403,6 +412,35 @@
         </div>
         <div class="pdf-embed-wrap">
           <iframe src="projects/Cloud_Security_with_AWS_IAM.pdf" title="AWS IAM PDF"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT 6 -->
+    <div class="project-view" id="p6">
+      <div class="pv-header">
+        <div class="pv-top">
+          <div class="pv-icon" style="background:#F0FDF4;">🔐</div>
+          <div class="pv-meta">
+            <div class="pv-num">Project 06</div>
+            <div class="pv-title">Creating a Private Subnet</div>
+          </div>
+        </div>
+        <p class="pv-desc">Built a private subnet inside an Amazon VPC, configured a dedicated route table with no internet gateway route, and set up a custom Network ACL that denies all inbound and outbound traffic to fully isolate the subnet from the internet.</p>
+        <div class="pv-tags">
+          <span class="tag">VPC</span><span class="tag">Private Subnet</span><span class="tag">Route Tables</span><span class="tag">Network ACLs</span>
+        </div>
+      </div>
+      <div class="pv-pdf-wrap">
+        <div class="pv-pdf-toolbar">
+          <div class="pv-pdf-filename"><span>📄</span> Creating_a_Private_Subnet.pdf</div>
+          <div class="pv-pdf-actions">
+            <a class="pdf-action-btn btn-open" href="projects/Creating_a_Private_Subnet.pdf" target="_blank">Open in Tab ↗</a>
+            <a class="pdf-action-btn btn-download" href="projects/Creating_a_Private_Subnet.pdf" download>⬇ Download</a>
+          </div>
+        </div>
+        <div class="pdf-embed-wrap">
+          <iframe src="projects/Creating_a_Private_Subnet.pdf" title="Creating a Private Subnet PDF"></iframe>
         </div>
       </div>
     </div>
